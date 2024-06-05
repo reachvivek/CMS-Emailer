@@ -40,9 +40,21 @@ body {
 }
 
 .map-img {
-  width: 24rem;
+  width: 23rem;
+}
+@media (max-width: 576px) {
+  /* For small screens */
+  .map-img {
+    width: 22rem;
+  }
 }
 
+@media (min-width: 768px) {
+  /* For medium screens and up */
+  .map-img {
+    width: 25rem;
+  }
+}
 .bullet-img {
   width: 3rem;
 }
