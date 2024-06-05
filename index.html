@@ -14,12 +14,21 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>Mailer</title>
   </head>
 
   <body>
     <section class="container">
+      <img
+        class="position-absolute start-25"
+        src="assets/img/elements/triangle_element.png"
+        alt=""
+      />
       <div class="row justify-content-end">
         <div
           class="col-md-4 col-12 d-flex flex-column align-items-end text-end"
@@ -38,14 +47,14 @@
       </div>
     </section>
     <section>
-      <div class="container mt-2">
+      <div class="container mt-5">
         <p class="paragraph">
-          Currently contributing <b class="dark-blue">60%</b> to domestic GDP,
+          Currently contributing <b class="pink">60%</b> to domestic GDP,
           India's consumption economy is fueling the country's growth
           aspirations and is on track to expand to a
-          <b class="dark-blue">USD 4 trillion opportunity by 2030</b>. CMS'
-          report titled, <br />
-          <b class="dark-blue">'Unfolding India's Consumption Story'</b>
+          <b class="pink">USD 4 trillion opportunity by 2030</b>. <br />
+          CMS' report titled,
+          <b class="pink">'Unfolding India's Consumption Story'</b>
           spotlights two integral aspects of India's consumption landscape.
         </p>
         <div
@@ -59,28 +68,44 @@
           class="row justify-content-center align-items-center text-center my-5"
         >
           <div class="col-md-4">
-            <b class="dark-blue">FMCG:</b>
+            <img
+              class="sector-img mb-3"
+              src="assets/img/elements/cart.png"
+              alt=""
+            />
             <p>
+              <b class="pink">FMCG:</b><br />
               Average spending in the sector sharply increased by
-              <b class="dark-blue">16.76% in FY24</b> after witnessing a decline
-              of
-              <b class="dark-blue">21.94% in FY23</b>
+              <b class="pink">16.76% in FY24</b> after witnessing a decline of
+              <b class="pink">21.94% in FY23</b>
             </p>
           </div>
           <div class="col-md-4">
-            <b class="dark-blue">Aviation:</b>
+            <img
+              class="sector-img mb-3"
+              src="./assets/img/elements/aeroplane.png"
+              alt=""
+            />
             <p>
+              <b class="pink">Aviation:</b> <br />
               Average spending in the sector increased by
-              <b class="dark-blue">6.36% in FY24</b> and by
-              <b class="dark-blue">27.42% since FY22</b>.
+              <b class="pink">6.36% in FY24</b> and by
+              <b class="pink">27.42% since FY22</b>.
             </p>
           </div>
           <div class="col-md-4">
-            <b class="dark-blue">Media & Entertainment:</b>
+            <img
+              class="sector-img mb-3"
+              src="./assets/img/elements/media.png"
+              alt=""
+            />
             <p>
-              In FY24, M&E spending surged by <b class="dark-blue">29.30%</b>,
-              the highest among 20+ sectors in India. Over FY22-FY24, it nearly
-              doubled up by almost <b class="dark-blue">100%</b>
+              <b class="pink">Media & Entertainment:</b>
+              <br />
+              In <b class="pink">FY24</b>, M&E spending surged by
+              <b class="pink">29.30%</b>, the highest among 20+ sectors in
+              India. Over FY22-FY24, it nearly doubled, up by almost
+              <b class="pink">100%</b>
             </p>
           </div>
         </div>
@@ -94,40 +119,94 @@
       </div>
     </section>
     <section class="container mb-5">
-      <div class="row mt-5">
+      <div class="row">
         <div class="col-md-6">
-          <p class="paragraph">
-            Karnataka saw the highest annual average withdrawal of
-            <b class="dark-blue">Rs. 1.83 Cr</b> during FY24, followed by Delhi,
-            and West Bengal at
-            <b class="dark-blue">Rs. 1.82 Cr and Rs. 1.62 Cr, respectively</b>.
-          </p>
-
-          <p class="paragraph my-5">
-            ATM cash withdrawals in metro locations have grown
-            <b class="dark-blue">at 37.49%,</b> whereas SURU witnessed
-            <b class="dark-blue">12.50%</b> growth in ATM cash withdrawals.
-          </p>
+          <div class="row mt-5">
+            <div class="col-2 col-md-2">
+              <img
+                class="bullet-img my-5"
+                src="./assets/img/elements/rupee.png"
+                alt=""
+              />
+            </div>
+            <div class="col-10 col-md-10">
+              <p class="paragraph">
+                Karnataka saw the highest annual average withdrawal of
+                <b class="pink">Rs. 1.83 Cr</b> during FY24, followed by Delhi,
+                and West Bengal at <br />
+                <b class="pink">Rs. 1.82 Cr and Rs. 1.62 Cr, respectively</b>.
+              </p>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-2 col-md-2">
+              <img
+                class="bullet-img my-5"
+                src="./assets/img/elements/rupee.png"
+                alt=""
+              />
+            </div>
+            <div class="col-10 col-md-10">
+              <p class="paragraph mt-3 mb-5">
+                Commensurate with FY24 average ATM cash replenishment trend
+                compared to FY22, ATM cash withdrawals in metro locations have
+                grown at <b class="pink">37.49%</b>, whereas SURU witnessed
+                <b class="pink">12.50%</b> growth in ATM cash withdrawals.
+              </p>
+            </div>
+          </div>
         </div>
         <div class="col-md-6">
-          <img />
+          <h5 class="text-center dark-blue mt-3">
+            Top 5 consumption hotspots in ATM withdrawal
+          </h5>
+          <img class="map-img" src="./assets/img/elements/map.png" alt="" />
         </div>
       </div>
     </section>
     <section class="download-section p-5">
-      <p class="paragraph fs-4">
-        To delve deeper into the insights, Download the CMS Consumption Report
-        2024.
-      </p>
-      <button>Download Now</button>
-      <img src="./assets/img/qr_code.png" alt="QR Code" class="qr-code" />
+      <div class="row">
+        <div
+          class="col-sm-12 col-md-6 d-flex flex-column justify-content-center align-items-center"
+        >
+          <p class="paragraph fs-4">
+            To delve deeper into the insights, <br />Download the CMS
+            Consumption Report 2024.
+          </p>
+          <button
+            class="btn-download btn btn-light"
+            onclick="window.open('https://www.cms.com/reports/cms-consumption-report-2024','_blank')"
+          >
+            <i class="bi bi-download"></i>Download Now
+          </button>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 mt-3">
+          <img class="qr-img" src="./assets/img/qr/CMSQRCode.png" alt="" />
+          <h5 class="text-center mt-2 mb-0">
+            Scan the QR code <br />to download report
+          </h5>
+        </div>
+      </div>
     </section>
     <footer class="footer">
-      <img src="./assets/img/brand/CMS_RMS_logo-removebg.png" alt="CMS Logo" />
-      <p class="mt-3 ms-2 text-secondary">
-        Cash Logistics | Banking Automation | Managed Services | Remote
-        Monitoring Solutions | Technology Solutions
+      <p>
+        CMS Info Systems Limited (BSE & NSE: CMSINFO) is India’s leading
+        business services company providing logistics and technology solutions
+        to banks, financial institutions, organized retail, and e-commerce
+        companies with a presence across Cash Logistics, Managed Services, and
+        Technology Solutions. <a href="">Know more</a>
       </p>
+      <div class="text-center">
+        <p class="d-inline text-secondary">Cash Logistics</p>
+        <p class="pink d-inline text-center">|</p>
+        <p class="text-secondary d-inline">Banking Automation</p>
+        <p class="pink d-inline text-center">|</p>
+        <p class="text-secondary d-inline">Managed Services</p>
+        <p class="pink d-inline text-center">|</p>
+        <p class="d-inline text-secondary">Remote Monitoring Solutions</p>
+        <p class="pink d-inline text-center">|</p>
+        <p class="d-inline text-secondary">Technology Solutions</p>
+      </div>
       <div class="row d-flex p-2">
         <div class="col">
           <a href="https://www.cms.com/" target="_blank">cms.com</a>
