@@ -21,6 +21,10 @@ body {
   font-style: normal;
 }
 
+.display-2 {
+  z-index: 999;
+}
+
 .logo {
   width: 8rem;
 }
@@ -47,12 +51,22 @@ body {
   .map-img {
     width: 22rem;
   }
+  .triangle-element {
+    width: 16rem;
+    position: absolute;
+  }
+  .display-2 {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 768px) {
   /* For medium screens and up */
   .map-img {
     width: 25rem;
+  }
+  .triangle-element {
+    width: 30rem;
   }
 }
 .bullet-img {
