@@ -133,3 +133,9 @@ body {
 a {
   text-decoration: none;
 }
+
+.socials {
+  width: 20px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
